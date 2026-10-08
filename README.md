@@ -14,11 +14,11 @@ python3 scripts/check_site.py
 python3 -m http.server 8765 --directory docs
 ```
 
-Open <http://localhost:8765>. Rendered HTML and all public assets are in `docs/`; the directory can also be served by any static web host. Always edit the source files, then render again. The generated hero artwork is saved locally and does not need to be regenerated to reproduce the website.
+Open <http://localhost:8765>. Rendered HTML and all public assets are in `docs/`; the directory can also be served by any static web host. Always edit the source files, then render again. The hero photograph and official logos are saved locally; the build never needs to download or regenerate them.
 
 ## Publish on GitHub Pages
 
-1. Add these files to the intended GitHub repository, using the `main` branch.
+1. Add these files to [`exposomika/website`](https://github.com/exposomika/website), using the `main` branch.
 2. Under **Settings → Pages → Build and deployment**, select **GitHub Actions**.
 3. Set the custom domain to **exposomika.io** in Pages settings. The repository's `CNAME` file also records it for branch-based publishing.
 4. Configure the domain at your DNS provider using [GitHub’s current custom-domain instructions](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site). Use the GitHub username or organisation that owns the selected repository; do not use a repository path in the DNS target.
@@ -40,4 +40,4 @@ Official deployment references: [GitHub custom workflows](https://docs.github.co
 - The page uses local assets and system fonts, with no analytics, third-party trackers, form backend or cookies added by this code. The hosting provider handles its own request logs.
 - The exposure selector supports mouse, touch, Left/Right, Home/End and screen readers. Without JavaScript, all four descriptions remain visible. Reduced-motion preferences are respected.
 
-See `ASSETS.md` for provenance and the hero-generation prompt.
+See `ASSETS.md` for asset provenance and licences.
