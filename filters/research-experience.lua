@@ -11,7 +11,7 @@ function Pandoc(doc)
   local manuel = as_of - number("research-start-manuel")
   local salma = as_of - number("research-start-salma")
   assert(manuel >= 0 and salma >= 0, "Research start years must precede the reference year")
-  local values = { ["as-of"] = as_of, manuel = manuel, salma = salma, combined = manuel + salma }
+  local values = { ["as-of"] = as_of, manuel = manuel, salma = salma }
   return doc:walk({
     RawBlock = function(block)
       if block.format == "html" then
