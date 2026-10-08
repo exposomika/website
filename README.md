@@ -41,3 +41,9 @@ Official deployment references: [GitHub custom workflows](https://docs.github.co
 - The exposure selector supports mouse, touch, Left/Right, Home/End and screen readers. Without JavaScript, all four descriptions remain visible. Reduced-motion preferences are respected.
 
 See `ASSETS.md` for asset provenance and licences.
+
+## Research experience
+
+The team’s doctoral-research start years were supplied by the founders: **2012** for Manuel and **2019** for Salma. `index.qmd` declares an explicit reference year of **2026**. The bundled-Pandoc Lua filter `filters/research-experience.lua` calculates **14**, **7**, and **21 combined** at render time. These are calendar-year differences, not precise anniversary calculations; no start months were supplied. The reference year is visible on the page. Advance `research-as-of` deliberately when updating the site, then re-render, so historical renders remain reproducible.
+
+The expertise wording describes study design, exposure measurement, and analysis of physiological and behavioural data. It is grounded in the founders’ stated research experience and the [group’s public research programme](https://www.kyb.tuebingen.mpg.de/tscn), with the measurement focus supported by [wearable light-logger field validation](https://arxiv.org/abs/2606.20719). It does not claim clinical validation of an exposomika product.
