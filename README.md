@@ -36,7 +36,7 @@ Official deployment references: [GitHub custom workflows](https://docs.github.co
 - Contact links open the visitor’s email application at **hello@exposomika.io**. The website does not provision that mailbox.
 - Team names, affiliations and the Cyber Valley Batch #9 participation are based on the supplied brief. Research profile links lead to the institutions’ public pages.
 - The mortality statement cites the **2016 WHO report**, based on **2012 mortality estimates**, rather than presenting it as a new estimate.
-- Exposure descriptions are illustrative educational context. The three-part approach describes the intended direction; it does not claim a deployed or clinically validated product.
+- Exposure descriptions are illustrative educational context. The three-part product journey—Measure, Understand, Act—describes intended exposure measurement, personal insight, and support for behaviour change. It does not claim a deployed or clinically validated product.
 - The page uses local assets and system fonts, with no analytics, third-party trackers, form backend or cookies added by this code. The hosting provider handles its own request logs.
 - The exposure selector supports mouse, touch, Left/Right, Home/End and screen readers. Without JavaScript, all four descriptions remain visible. Reduced-motion preferences are respected.
 
