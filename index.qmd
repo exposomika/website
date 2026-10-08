@@ -25,7 +25,7 @@ filters:
     <div class="hero-content">
       <p class="eyebrow hero-eyebrow">Environmental intelligence. Human health.</p>
       <h1 id="hero-title">Measure the world<br class="desktop-break"> around you.<br><span>Understand its<br class="desktop-break"> impact within you.</span></h1>
-      <p class="hero-intro">Your environment shapes your health.<br>We’re building the intelligence to understand how—and support everyday change.</p>
+      <p class="hero-intro">Your environment shapes your health.<br>We’re building the intelligence to understand how and support everyday change.</p>
       <a class="button button-amber" href="#mission">Discover our mission</a>
     </div>
     <div class="hero-bottom"><span>From the outside world to the individual.</span><span class="hero-coordinate">EXPOSURE / INSIGHT / ACTION</span></div>
