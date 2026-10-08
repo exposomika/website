@@ -5,6 +5,7 @@ All assets are served locally. Re-rendering the site does not download or genera
 | Asset | Source and licence / ownership |
 | --- | --- |
 | `assets/logo.png` | Existing exposomika logo supplied in the workspace, preserved unchanged. |
+| `assets/social-preview.png` | User-supplied `Zeichenfläche 1_2@4x.png`, 1361 × 1361. Original PNG preserved unchanged for Open Graph and social sharing previews. |
 | `assets/favicon.svg` | Simple asterisk created for the site's indigo and amber identity. |
 | `assets/city-crossing.jpg` | **Ryoji Iwata**, *crossing*, Ginza, Chūō, Japan, published 5 December 2017. [Original photograph](https://unsplash.com/photos/aerial-view-photography-of-people-crossing-road-wuCNi2XfBeE), [Unsplash licence](https://unsplash.com/license). Downloaded at 2400 px wide; no generative edits. Attribution is retained here; the Unsplash licence does not require a visible site credit. |
 | `assets/tum-logo.svg` | [TUM official website](https://www.tum.de/en/), [original SVG](https://www.tum.de/typo3conf/ext/in2template/Resources/Public/Images/Backend/tum-logo.svg). Original white SVG retained; displayed in black via CSS. TUM's trademark remains its property. |
