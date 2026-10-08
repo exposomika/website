@@ -10,7 +10,7 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}
 
 /* The research story */
-.hero-image{background-image:url('assets/everyday-light.jpg')}
+.hero-image{background-image:url('assets/city-crossing.jpg')}
 .hero-content{animation:arrive .85s cubic-bezier(.2,.7,.2,1) both}
 @keyframes arrive{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
 sup{font-family:var(--mono);font-size:11px;vertical-align:super;margin-left:4px}sup a{color:var(--indigo);text-decoration:underline}
@@ -24,7 +24,7 @@ sup{font-family:var(--mono);font-size:11px;vertical-align:super;margin-left:4px}
 @media(max-width:370px){.site-header{padding-inline:18px}.brand{width:139px}.header-contact{font-size:12px;padding:9px 11px}.hero-content{padding-inline:19px}.hero h1{font-size:35px}.hero-eyebrow{font-size:9px}.evidence-strip{gap:18px}.statistic-value{font-size:56px}.person-mark{width:48px;height:60px;font-size:22px}.person h3{font-size:25px}.connect h2{font-size:49px}}
 
 /* Real-world photography and original institutional marks. */
-.hero-image{left:44%;background-position:center 65%}
+.hero-image{left:36%;background-position:center 50%}
 .hero::after{background:linear-gradient(90deg,#18142c 0%,#18142c 37%,rgba(24,20,44,.87) 48%,rgba(24,20,44,.35) 65%,rgba(24,20,44,.02) 85%)}
 .hero-coordinate{padding:5px 8px;background:rgba(24,20,44,.5)}
 .institution-logo{object-fit:contain;object-position:left center}
@@ -39,4 +39,4 @@ sup{font-family:var(--mono);font-size:11px;vertical-align:super;margin-left:4px}
 .hero-coordinate,.affiliation-bar>.eyebrow,.source-link,.process-label,.source-note,.footer-bottom,.exposure-explorer-top .eyebrow,.person-info .eyebrow,.incubator-banner .eyebrow{font-size:12px}
 .exposure-dimensions span{font-size:14px}
 @media(max-width:1000px){.tum-logo{width:68px}.mpi-logo{width:210px}.cyber-logo{width:150px}.incubator-logo{width:110px}.affiliation-bar{grid-template-columns:.85fr .8fr 1.2fr 1fr}.incubator-banner{gap:23px}}
-@media(max-width:700px){.hero{min-height:860px}.hero-content{padding-bottom:320px}.hero-image{left:0;top:35%;background-position:center 65%;background-size:cover}.hero::after{background:linear-gradient(180deg,#18142c 0%,#18142c 33%,rgba(24,20,44,.92) 48%,rgba(24,20,44,.1) 76%,rgba(24,20,44,.3) 100%)}.hero-eyebrow{font-size:12px;max-width:240px}.hero-bottom{font-size:12px}.affiliation-bar{grid-template-columns:1fr 1fr;gap:33px 25px}.affiliation-bar>.eyebrow{font-size:12px}.affiliation span{font-size:12px}.tum-logo{width:68px}.mpi-logo{width:100%;max-width:220px}.cyber-logo{width:145px}.exposure-explorer-top .eyebrow{font-size:12px}.exposure-panel p:not(.eyebrow){font-size:16px}.exposure-panel .eyebrow{font-size:12px}.exposure-dimensions span{font-size:13px}.incubator-banner>div{flex-basis:auto}.incubator-logo{width:110px}.incubator-banner h3{font-size:24px}.incubator-banner .eyebrow{max-width:130px;display:block}.incubator-link{font-size:13px}.batch-badge{font-size:12px}.connect .eyebrow{font-size:12px}.connect-copy>p:not(.eyebrow){font-size:16px}.person-affiliation{font-size:14px}.source-note,.footer-bottom{font-size:12px}}
+@media(max-width:700px){.hero{min-height:860px}.hero-content{padding-bottom:320px}.hero-image{left:0;top:35%;background-position:center 50%;background-size:cover}.hero::after{background:linear-gradient(180deg,#18142c 0%,#18142c 33%,rgba(24,20,44,.92) 48%,rgba(24,20,44,.1) 76%,rgba(24,20,44,.3) 100%)}.hero-eyebrow{font-size:12px;max-width:240px}.hero-bottom{font-size:12px}.affiliation-bar{grid-template-columns:1fr 1fr;gap:33px 25px}.affiliation-bar>.eyebrow{font-size:12px}.affiliation span{font-size:12px}.tum-logo{width:68px}.mpi-logo{width:100%;max-width:220px}.cyber-logo{width:145px}.exposure-explorer-top .eyebrow{font-size:12px}.exposure-panel p:not(.eyebrow){font-size:16px}.exposure-panel .eyebrow{font-size:12px}.exposure-dimensions span{font-size:13px}.incubator-banner>div{flex-basis:auto}.incubator-logo{width:110px}.incubator-banner h3{font-size:24px}.incubator-banner .eyebrow{max-width:130px;display:block}.incubator-link{font-size:13px}.batch-badge{font-size:12px}.connect .eyebrow{font-size:12px}.connect-copy>p:not(.eyebrow){font-size:16px}.person-affiliation{font-size:14px}.source-note,.footer-bottom{font-size:12px}}
