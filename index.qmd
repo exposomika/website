@@ -1,0 +1,99 @@
+---
+pagetitle: "exposomika* — Environmental intelligence for human health"
+---
+
+```{=html}
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <a class="brand" href="#" aria-label="exposomika home"><img src="assets/logo.png" alt="exposomika*" width="1374" height="389"></a>
+  <nav class="navigation" aria-label="Main navigation">
+    <a href="#mission">Our mission</a>
+    <a href="#approach">Our approach</a>
+    <a href="#team">The team</a>
+  </nav>
+  <a class="header-contact" href="#connect">Let’s connect</a>
+</header>
+
+<main id="main">
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero-image" aria-hidden="true"></div>
+    <div class="hero-content">
+      <p class="eyebrow hero-eyebrow">Environmental intelligence. Human health.</p>
+      <h1 id="hero-title">Measure the world<br class="desktop-break"> around you.<br><span>Understand its<br class="desktop-break"> impact within you.</span></h1>
+      <p class="hero-intro">Your environment shapes your health.<br>We’re building the intelligence to understand how.</p>
+      <a class="button button-amber" href="#mission">Discover our mission</a>
+    </div>
+    <div class="hero-bottom"><span>From the outside world to the individual.</span><span class="hero-coordinate">EXPOSURE / INSIGHT / IMPACT</span></div>
+  </section>
+
+  <div class="affiliation-bar container">
+    <p class="eyebrow">Rooted in research.<br>Built for the real world.</p>
+    <a class="affiliation" href="https://www.tum.de/en/" target="_blank" rel="noopener noreferrer"><strong>TUM</strong><span>Technical University<br>of Munich</span></a>
+    <a class="affiliation mpi" href="https://www.kyb.tuebingen.mpg.de/en" target="_blank" rel="noopener noreferrer"><strong>Max Planck</strong><span>Institute for<br>Biological Cybernetics</span></a>
+    <a class="affiliation cyber" href="https://cyber-valley.de/en/events/cyber-valley-ai-incubator-batch-9-demo-day" target="_blank" rel="noopener noreferrer"><strong>Cyber Valley</strong><span>AI Incubator · Batch #9</span></a>
+  </div>
+
+  <section class="mission section container" id="mission" aria-labelledby="mission-title">
+    <div class="section-kicker"><span class="section-number">01 /</span><p class="eyebrow">The missing picture</p></div>
+    <div class="mission-grid">
+      <h2 id="mission-title">Health doesn’t happen<br>in a vacuum.</h2>
+      <div class="mission-copy"><p>Nearly a quarter of deaths worldwide are linked to modifiable environmental factors.<sup><a href="#source-note" aria-label="Source: World Health Organization, 2016">1</a></sup> Yet we still understand little about how everyday exposures affect individual health.</p><p class="statement">We’re building the intelligence layer to close that gap.</p></div>
+    </div>
+    <div class="evidence-strip">
+      <div class="statistic"><span class="statistic-prefix">Nearly</span><span class="statistic-value">1 in 4</span></div>
+      <div class="evidence-copy"><p>Deaths worldwide linked to<br>modifiable environmental factors.</p><a class="source-link" href="https://www.who.int/news/item/15-03-2016-an-estimated-12-6-million-deaths-each-year-are-attributable-to-unhealthy-environments" target="_blank" rel="noopener noreferrer">World Health Organization · 2016 report</a></div>
+      <p class="evidence-question">What if we could<br>make the invisible<br><em>understandable?</em></p>
+    </div>
+  </section>
+
+  <section class="approach section" id="approach" aria-labelledby="approach-title">
+    <div class="container">
+      <div class="section-kicker"><span class="section-number">02 /</span><p class="eyebrow">The intelligence layer</p></div>
+      <div class="section-heading"><h2 id="approach-title">A world of exposure.<br>A more personal picture.</h2><p>From the light we see to the air we breathe, exposure is part of every day. Understanding it means connecting our surroundings with our biology.</p></div>
+
+      <div class="exposure-explorer">
+        <div class="exposure-explorer-top"><p class="eyebrow">Everyday environments, many dimensions</p><span class="small-note">Explore the context</span></div>
+        <div class="exposure-tabs" aria-label="Environmental exposures">
+          <button type="button" id="tab-light" data-panel="panel-light">Light<span aria-hidden="true">01</span></button>
+          <button type="button" id="tab-air" data-panel="panel-air">Air<span aria-hidden="true">02</span></button>
+          <button type="button" id="tab-sound" data-panel="panel-sound">Sound<span aria-hidden="true">03</span></button>
+          <button type="button" id="tab-temperature" data-panel="panel-temperature">Temperature<span aria-hidden="true">04</span></button>
+        </div>
+        <div class="exposure-panels">
+          <div class="exposure-panel" id="panel-light"><div><p class="eyebrow">Light</p><h3>A day in a different light.</h3><p>Morning daylight. Indoor lighting. Bright evenings. The light around us changes from moment to moment, making timing and context part of the picture.</p></div><div class="exposure-dimensions"><span>Intensity</span><span>Spectrum</span><span>Timing</span><span>Duration</span></div></div>
+          <div class="exposure-panel" id="panel-air"><div><p class="eyebrow">Air</p><h3>Every breath has a context.</h3><p>A commute, a workspace, a home. The air we encounter varies with where we are and what we do. A single location cannot tell the whole story.</p></div><div class="exposure-dimensions"><span>Particles</span><span>Pollutants</span><span>Place</span><span>Duration</span></div></div>
+          <div class="exposure-panel" id="panel-sound"><div><p class="eyebrow">Sound</p><h3>The soundtrack of everyday life.</h3><p>Traffic outside. Conversation nearby. Quiet at night. Understanding sound exposure means looking beyond volume to its pattern across the day.</p></div><div class="exposure-dimensions"><span>Level</span><span>Frequency</span><span>Timing</span><span>Duration</span></div></div>
+          <div class="exposure-panel" id="panel-temperature"><div><p class="eyebrow">Temperature</p><h3>A changing thermal world.</h3><p>From outdoor heat to indoor climates, temperature is a changing part of our surroundings. Context helps make sense of the conditions each person experiences.</p></div><div class="exposure-dimensions"><span>Temperature</span><span>Humidity</span><span>Place</span><span>Duration</span></div></div>
+        </div>
+      </div>
+
+      <p class="eyebrow process-label">What we’re building towards</p>
+      <div class="process-grid">
+        <article class="process-step"><span class="process-index">01</span><h3>Measure.</h3><p>Capture everyday environmental exposures as they happen in the real world.</p></article>
+        <article class="process-step"><span class="process-index">02</span><h3>Connect.</h3><p>Bring exposure and individual health into the same picture, with context at the centre.</p></article>
+        <article class="process-step"><span class="process-index">03</span><h3>Understand.</h3><p>Build the evidence to reveal how the world around us relates to the health within us.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="team section container" id="team" aria-labelledby="team-title">
+    <div class="section-kicker"><span class="section-number">03 /</span><p class="eyebrow">The people behind the question</p></div>
+    <div class="section-heading"><h2 id="team-title">Scientific curiosity.<br>Real-world ambition.</h2><p>Bringing together research in human biology and everyday environments to ask a bigger question about health.</p></div>
+    <div class="team-grid">
+      <article class="person"><span class="person-mark" aria-hidden="true">MS</span><div class="person-info"><p class="eyebrow">The team</p><h3>Manuel Spitschan</h3><p class="person-field">Chronobiology &amp; health</p><p class="person-affiliation">Technical University of Munich<br>Max Planck Institute for Biological Cybernetics</p><a class="text-link" href="https://portal.fis.tum.de/en/persons/manuel-spitschan/" target="_blank" rel="noopener noreferrer">Research profile</a></div></article>
+      <article class="person"><span class="person-mark" aria-hidden="true">ST</span><div class="person-info"><p class="eyebrow">The team</p><h3>Salma Thalji</h3><p class="person-field">Sensory &amp; circadian neuroscience</p><p class="person-affiliation">Max Planck Institute for Biological Cybernetics</p><a class="text-link" href="https://www.kyb.tuebingen.mpg.de/649336/team" target="_blank" rel="noopener noreferrer">Research profile</a></div></article>
+    </div>
+    <a class="incubator-banner" href="https://cyber-valley.de/en/events/cyber-valley-ai-incubator-batch-9-demo-day" target="_blank" rel="noopener noreferrer"><div><span class="eyebrow">Building in good company</span><h3>Cyber Valley AI Incubator</h3></div><span class="batch-badge">Batch #9</span><span class="incubator-link">Discover the programme</span></a>
+  </section>
+
+  <section class="connect" id="connect" aria-labelledby="connect-title">
+    <div class="container connect-inner"><div class="connect-copy"><p class="eyebrow">Let’s close the gap.</p><h2 id="connect-title">The next chapter<br>in health starts<br><em>around us.</em></h2><p>We’re at the beginning of something important.<br>If you’re an investor, researcher, or potential partner,<br class="desktop-break"> we’d love to talk.</p><a class="button button-amber" href="mailto:hello@exposomika.io">Start a conversation</a><a class="contact-email" href="mailto:hello@exposomika.io">hello@exposomika.io</a></div><div class="connect-aside"><span class="brand-asterisk" aria-hidden="true">*</span><p>Measure the world around you.<br>Understand its impact within you.</p></div></div>
+  </section>
+</main>
+
+<footer class="site-footer container">
+  <div class="footer-top"><a class="brand" href="#" aria-label="exposomika home"><img src="assets/logo.png" alt="exposomika*" width="1374" height="389" loading="lazy"></a><nav aria-label="Footer navigation"><a href="#mission">Mission</a><a href="#approach">Approach</a><a href="#team">Team</a><a href="mailto:hello@exposomika.io">Contact</a></nav></div>
+  <p id="source-note" class="source-note"><sup>1</sup> WHO, <a href="https://www.who.int/news/item/15-03-2016-an-estimated-12-6-million-deaths-each-year-are-attributable-to-unhealthy-environments" target="_blank" rel="noopener noreferrer">Preventing disease through healthy environments</a> (2016), based on 2012 mortality estimates. The estimate describes population-level environmental health burden.</p>
+  <div class="footer-bottom"><span>© 2026 exposomika</span><span>Environmental intelligence for human health.</span><a href="#">Back to top</a></div>
+</footer>
+```

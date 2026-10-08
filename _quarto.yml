@@ -1,0 +1,25 @@
+project:
+  type: default
+  output-dir: docs
+  render:
+    - index.qmd
+  resources:
+    - assets/
+    - site.js
+    - CNAME
+    - .nojekyll
+    - robots.txt
+    - sitemap.xml
+
+lang: en
+format:
+  html:
+    template: template.html
+    theme: none
+    css: styles.css
+    toc: false
+    anchor-sections: false
+    smooth-scroll: false
+    html-math-method: plain
+    code-tools: false
+    embed-resources: false
